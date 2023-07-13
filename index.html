@@ -21,25 +21,37 @@
   </head>
   <body>
     <header>
-      <a href="#hero"><img src="images/F (1).png" /></a>
+      <a href="#hero" aria-label="home page"
+        ><img alt="" src="images/F (1).png"
+      /></a>
 
       <nav>
         <i class="fa-solid fa-bars hamburger"></i>
         <i class="fas fa-times close hide"></i>
 
         <ul class="horizontal-nav">
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <li><a class="resume" href="#resume">Resume</a></li>
+          <li><a href="#about" aria-label="about section">About</a></li>
+          <li>
+            <a href="#projects" aria-label="projects section">Projects</a>
+          </li>
+          <li><a href="#contact" aria-label="contact section">Contact</a></li>
+          <li>
+            <a class="resume" href="#resume" aria-label="resume">Resume</a>
+          </li>
         </ul>
 
         <div>
           <ul class="hamburger-dropdown hide">
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a class="resume-dropdown" href="#resume">Resume</a></li>
+            <li><a href="#about" aria-label="about section">About</a></li>
+            <li>
+              <a href="#projects" aria-label="projects section">Projects</a>
+            </li>
+            <li><a href="#contact" aria-label="contact section">Contact</a></li>
+            <li>
+              <a class="resume-dropdown" href="#resume" aria-label="resume"
+                >Resume</a
+              >
+            </li>
           </ul>
         </div>
       </nav>
@@ -52,7 +64,7 @@
         </h1>
         <p class="hero-intro-small">Front-end web developer. <br /></p>
         <p></p>
-        <a href="#about"
+        <a href="#about" aria-label="about section"
           ><img
             class="scroll"
             src="images/Scroll Down 5 (3).svg"
@@ -82,7 +94,7 @@
         <img
           src="images/IMG-2161 (3).jpg
             "
-          alt=""
+          alt="francie headshot"
         />
       </div>
 
@@ -105,8 +117,16 @@
       <h1 class="projects-title line">PROJECTS</h1>
       <div class="project-container">
         <div class="screenshots">
-          <img class="desktop" src="images/tspdesktop2.jpg" alt="" />
-          <img class="mobile" src="images/tspmobile3.png" alt="" />
+          <img
+            class="desktop"
+            src="images/tspdesktop2.jpg"
+            alt="the sweet project desktop display"
+          />
+          <img
+            class="mobile"
+            src="images/tspmobile3.png"
+            alt="the sweet project mobile display"
+          />
         </div>
         <div class="project-description-container">
           <div class="title-and-links-container">
@@ -116,11 +136,13 @@
                 href="https://github.com/francieO/TheSweetProject"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="github the sweet project"
                 >CODE</a
               ><a
                 href="https://thesweetproject.pages.dev/"
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="the sweet project website"
                 >SITE</a
               >
             </div>
@@ -148,30 +170,35 @@
           href="https://www.facebook.com/francie.oblinger"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="francie facebook"
           ><i class="fa-brands fa-facebook"></i
         ></a>
         <a
           href="https://www.instagram.com/francie.oblinger/"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="francie instagram"
           ><i class="fa-brands fa-instagram"></i
         ></a>
         <a
           href="https://github.com/francieO"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="francie github"
           ><i class="fa-brands fa-github"></i
         ></a>
         <a
           href="https://www.linkedin.com/in/francie-oblinger-4521a9128/"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="francie linkedin"
           ><i class="fa-brands fa-linkedin"></i
         ></a>
         <a
           href="mailto:francie.oblinger@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
+          aria-label="email francie"
           ><i class="fa-regular fa-envelope"></i
         ></a>
       </div>
